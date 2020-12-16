@@ -1,0 +1,593 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{ //首页
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "伙拼乐购",
+				"navigationBarBackgroundColor": "#FF5500"
+				// "enablePullDownRefresh": true //开启下拉刷新
+				
+			}
+
+		},
+		{ //首页
+			"path": "pages/index/search",
+			"style": {
+				"navigationBarTitleText": "搜索",
+				"navigationBarBackgroundColor": "#FF5500"
+				// "enablePullDownRefresh": true //开启下拉刷新
+			}
+		},
+
+		{ //1零售商城
+			"path": "pages/index/store",
+			"style": {
+				"navigationBarTitleText": "商城",
+				"navigationBarBackgroundColor": "#FF5500"
+				// "enablePullDownRefresh": true //开启下拉刷新
+
+			}
+		},
+		{ //1.1零售商城分类一
+			"path": "pages/goodslist/goodsclass",
+			"style": {
+				"navigationBarTitleText": "商城",
+				"navigationBarBackgroundColor": "#FF5500"
+				// "enablePullDownRefresh": true //开启下拉刷新
+
+			}
+		},
+		{ //1.2零售商城分类二
+			"path": "pages/goodslist/goodstwo",
+			"style": {
+				"navigationBarTitleText": "商城",
+				"navigationBarBackgroundColor": "#FF5500"
+				// "enablePullDownRefresh": true //开启下拉刷新
+
+			}
+		},
+		{ //1.3零售商城分类三
+			"path": "pages/goodslist/goodsthree",
+			"style": {
+				"navigationBarTitleText": "商城",
+				"navigationBarBackgroundColor": "#FF5500"
+				// "enablePullDownRefresh": true //开启下拉刷新
+
+			}
+		},
+		{ //1.4零售商城详情页面
+			"path": "pages/goodsdetails/goodsDetails"
+		},
+		{ //1.4零售商城确认订单页面
+			"path": "pages/goodsdetails/confirmOrder",
+			"style": {
+				"navigationBarTitleText": "确认订单",
+				"navigationBarBackgroundColor": "#FF5500"
+				// "enablePullDownRefresh": true //开启下拉刷新
+
+			}
+		},
+		{ //1.4 积分 兑换 确认订单页面
+			"path": "pages/goodsdetails/pointConfirmOrder",
+			"style": {
+				"navigationBarTitleText": "确认订单",
+				"navigationBarBackgroundColor": "#FF5500"
+				// "enablePullDownRefresh": true //开启下拉刷新
+
+			}
+		},
+		{ //1.4零售商城确认订单页面 
+			"path": "pages/goodsdetails/submitOrders",
+			"style": {
+				"navigationBarTitleText": "支付页"
+
+			}
+		},
+		{ //1.4零售商城修改地址
+			"path": "pages/goodsdetails/modifyAddress",
+			"style": {
+				"navigationBarTitleText": "修改地址"
+			
+
+			}
+		},
+		{ //nav导航 2 拼团
+			"path": "pages/index/spellgroup",
+			"style": {
+				"navigationBarBackgroundColor": "#FF5500",
+				"navigationBarTitleText": "拼团"
+			}
+		},
+		{ //2.1拼团商城拼团五人
+			"path": "pages/groupdetails/towdetails",
+			"style": {
+				"navigationBarBackgroundColor": "#FF5500",
+				"navigationBarTitleText": "五人拼团"
+			}
+		},
+		{ //2.2拼团商城拼团五人
+			"path": "pages/groupdetails/fivedetails",
+			"style": {
+				"navigationBarBackgroundColor": "#FF5500",
+				"navigationBarTitleText": "五人拼团"
+			}
+		},
+		{ //2.3拼团商城拼团七人
+			"path": "pages/groupdetails/sevendetails",
+			"style": {
+				"navigationBarBackgroundColor": "#FF5500",
+				"navigationBarTitleText": "七人拼团"
+			}
+		},
+
+
+		{ //nav导航 3 积分商城
+			"path": "pages/index/shopping",
+			"style": {
+				"navigationBarBackgroundColor": "#FF5500",
+				"navigationBarTitleText": "红包商城"
+			}
+		},
+		{ //积分商城商品详情
+			"path": "pages/mall/mallPoints",
+			"style": {
+				"navigationBarTitleText": "红包商城商品详情",
+				"navigationBarBackgroundColor": "#FF5500"
+			}
+		},
+
+		{ //积分商城规则
+			"path": "pages/mall/mallRules",
+			"style": {
+				"navigationBarTitleText": "商城规则"
+			}
+		},
+		{ //nav导航 4 秒杀
+			"path": "pages/index/seckill",
+			"style": {
+				"navigationBarBackgroundColor": "#FF5500",
+				"navigationBarTitleText": "秒杀"
+			}
+		},
+
+		{ //nav导航 5 活动
+			"path": "pages/index/activity",
+			"style": {
+				"navigationBarBackgroundColor": "#FF5500",
+				"navigationBarTitleText": "活动"
+			}
+		},{ //更多拼团
+			"path": "pages/groupdetails/spell",
+			"style": {
+				"navigationBarBackgroundColor": "#FF5500",
+				"navigationBarTitleText": "更多拼团"
+			}
+		},
+
+		{ //拼团两人
+			"path": "pages/group/towGroup",
+			"style": {
+				"navigationBarBackgroundColor": "#FF5500",
+				"navigationBarTitleText": "两人拼团"
+			}
+		},
+		
+		{ //拼团五人
+			"path": "pages/group/fiveGroup",
+			"style": {
+				"navigationBarBackgroundColor": "#FF5500",
+				"navigationBarTitleText": "五人拼团"
+			}
+		},
+		
+		{ //拼团七人
+			"path": "pages/group/sevenGroup",
+			"style": {
+				"navigationBarBackgroundColor": "#FF5500",
+				"navigationBarTitleText": "七人拼团"
+			}
+		},
+
+		
+		{ //去拼团七人商品详情
+			"path": "pages/groupdetails/allgroup",
+			"style": {
+				"navigationBarBackgroundColor": "#FF5500"
+				// "navigationBarTitleText": "更多拼团"
+			}
+		},
+		{ //全部分类
+			"path": "pages/goods/goods",
+			"style": {
+				"navigationBarBackgroundColor": "#FF5500",
+				"navigationBarTitleText": "全部分类"
+			}
+		},
+		{ //全部分类
+			"path": "pages/goods/cateGoods",
+			"style": {
+				"navigationBarBackgroundColor": "#FF5500"
+				// "navigationBarTitleText": "全部分类"
+			}
+		},
+
+		{ //购物车
+			"path": "pages/cart/cart",
+			"style": {
+				"navigationBarBackgroundColor": "#FF5500",
+				"navigationBarTitleText": "购物车"
+			}
+		},
+		{ //我的页面
+			"path": "pages/own/own",
+			"style": {
+				"navigationBarBackgroundColor": "#FF5500"
+				// "navigationBarTitleText": "uni-app"
+			}
+		},
+		{
+			"path": "pages/own/check_acount",
+			"style": {
+				"navigationBarBackgroundColor": "#FF5500",
+				"navigationBarTitleText": "切换账号"
+			}
+		},
+		{
+			"path": "pages/own/add_acount",
+			"style": {
+				"navigationBarBackgroundColor": "#FF5500",
+				"navigationBarTitleText": "新增账号"
+			}
+		},
+		{
+			"path": "pages/own/my_collect",
+			"style": {
+				"navigationBarBackgroundColor": "#FF5500",
+				"navigationBarTitleText": "我的收藏"
+			}
+		},
+		{
+			"path": "pages/own/my_order",
+			"style": {
+				"navigationBarBackgroundColor": "#FF5500",
+				"navigationBarTitleText": "我的订单"
+			}
+		},
+		{
+			"path": "pages/own/dd_detail",
+			"style": {
+				"navigationBarBackgroundColor": "#FF5500",
+				"navigationBarTitleText": "订单详情"
+			}
+		},
+		{
+			"path": "pages/own/score",
+			"style": {
+				"navigationBarBackgroundColor": "#FF5500",
+				"navigationBarTitleText": "我的红包"
+			}
+		},
+		{
+			"path": "pages/own/score_jl",
+			"style": {
+				"navigationBarBackgroundColor": "#FF5500",
+				"navigationBarTitleText": "红包商场兑换记录"
+			}
+		},
+		{
+			"path": "pages/own/balance",
+			"style": {
+				"navigationBarBackgroundColor": "#FF5500",
+				"navigationBarTitleText": "商城余额"
+			}
+		},
+		{
+			"path": "pages/own/dh_balance",
+			"style": {
+				"navigationBarBackgroundColor": "#FF5500",
+				"navigationBarTitleText": "兑换商城余额"
+			}
+		},
+		{
+			"path": "pages/own/wallet",
+			"style": {
+				"navigationBarBackgroundColor": "#FF5500",
+				"navigationBarTitleText": "我的钱包"
+			}
+		},
+		{
+			"path": "pages/own/recharge",
+			"style": {
+				"navigationBarBackgroundColor": "#FF5500",
+				"navigationBarTitleText": "充值"
+			}
+		},
+		{
+			"path": "pages/own/deposit",
+			"style": {
+				"navigationBarBackgroundColor": "#FF5500",
+				"navigationBarTitleText": "提现"
+			}
+		},
+		{
+			"path": "pages/own/notice",
+			"style": {
+				"navigationBarBackgroundColor": "#FF5500",
+				"navigationBarTitleText": "系统公告"
+			}
+		},
+		{
+			"path": "pages/own/notice_detail",
+			"style": {
+				"navigationBarBackgroundColor": "#FF5500",
+				"navigationBarTitleText": "公告详情"
+			}
+		},
+		{
+			"path": "pages/own/address",
+			"style": {
+				"navigationBarBackgroundColor": "#FF5500",
+				"navigationBarTitleText": "收货地址"
+			}
+		},
+		{
+			"path": "pages/own/add_address",
+			"style": {
+				"navigationBarBackgroundColor": "#FF5500",
+				"navigationBarTitleText": "新增收货地址"
+			}
+		},
+		{
+			"path": "pages/own/bj_address",
+			"style": {
+				"navigationBarBackgroundColor": "#FF5500",
+				"navigationBarTitleText": "编辑收货地址"
+			}
+		},
+		{
+			"path": "pages/own/customer",
+			"style": {
+				"navigationBarBackgroundColor": "#FF5500",
+				"navigationBarTitleText": "我的客服"
+			}
+		},
+		{
+			"path": "pages/own/customer_detail",
+			"style": {
+				"navigationBarBackgroundColor": "#FF5500",
+				"navigationBarTitleText": "常见问题详情"
+			}
+		},
+		{
+			"path": "pages/own/code",
+			"style": {
+				"navigationBarBackgroundColor": "#FF5500",
+				"navigationBarTitleText": "分享码"
+			}
+		},
+		{
+			"path": "pages/own/agent_benefit",
+			"style": {
+				"navigationBarBackgroundColor": "#FF5500",
+				"navigationBarTitleText": "代理收益"
+			}
+		},
+		{
+			"path": "pages/own/partaker",
+			"style": {
+				"navigationBarBackgroundColor": "#FF5500",
+				"navigationBarTitleText": "拼团记录"
+			}
+		},
+		{
+			"path": "pages/own/friends",
+			"style": {
+				"navigationBarBackgroundColor": "#FF5500",
+				"navigationBarTitleText": "我的好友"
+			}
+		},
+		{
+			"path": "pages/own/friends_xf",
+			"style": {
+				"navigationBarBackgroundColor": "#FF5500",
+				"navigationBarTitleText": "好友消费明细"
+			}
+		},
+		{
+			"path": "pages/own/history",
+			"style": {
+				"navigationBarBackgroundColor": "#FF5500",
+				"navigationBarTitleText": "浏览记录"
+			}
+		},
+		{
+			"path": "pages/own/group/groupDetail",
+			"style": {
+				"navigationBarBackgroundColor": "#FF5500",
+				"navigationBarTitleText": "拼团详情"
+			}
+		},
+
+		//合伙人
+		{
+			"path": "pages/partner/apply_partner",
+			"style": {
+				"navigationBarBackgroundColor": "#FF5500",
+				"navigationBarTitleText": "申请合伙人"
+			}
+		},
+		{
+			"path": "pages/partner/apply_partner2",
+			"style": {
+				"navigationBarBackgroundColor": "#FF5500",
+				"navigationBarTitleText": "申请合伙人"
+			}
+		},
+		{
+			"path": "pages/partner/apply_rule",
+			"style": {
+				"navigationBarBackgroundColor": "#FF5500",
+				"navigationBarTitleText": "合伙人权益"
+			}
+		},
+		{
+			"path": "pages/partner/apply_check",
+			"style": {
+				"navigationBarBackgroundColor": "#FF5500",
+				"navigationBarTitleText": "申请合伙人"
+			}
+		},
+		{
+			"path": "pages/partner/apply_check2",
+			"style": {
+				"navigationBarBackgroundColor": "#FF5500",
+				"navigationBarTitleText": "申请合伙人"
+			}
+		},
+		{
+			"path": "pages/partner/apply_no",
+			"style": {
+				"navigationBarBackgroundColor": "#FF5500",
+				"navigationBarTitleText": "申请合伙人"
+			}
+		},
+		{
+			"path": "pages/partner/apply_agree",
+			"style": {
+				"navigationBarBackgroundColor": "#FF5500",
+				"navigationBarTitleText": "申请合伙人"
+			}
+		},
+		{
+			"path": "pages/partner/apply_spartner",
+			"style": {
+				"navigationBarBackgroundColor": "#FF5500",
+				"navigationBarTitleText": "申请市级合伙人"
+			}
+		},
+		{
+			"path": "pages/partner/apply_spartner2",
+			"style": {
+				"navigationBarBackgroundColor": "#FF5500",
+				"navigationBarTitleText": "申请市级合伙人"
+			}
+		},
+		{
+			"path": "pages/partner/apply_spartner_agree",
+			"style": {
+				"navigationBarBackgroundColor": "#FF5500",
+				"navigationBarTitleText": "申请合伙人"
+			}
+		},
+		//设置
+		{
+			"path": "pages/set/set",
+			"style": {
+				"navigationBarBackgroundColor": "#FF5500",
+				"navigationBarTitleText": "设置"
+			}
+		},
+		{
+			"path": "pages/set/gy",
+			"style": {
+				"navigationBarBackgroundColor": "#FF5500",
+				"navigationBarTitleText": "关于平台"
+			}
+		},
+		{
+			"path": "pages/set/feedback",
+			"style": {
+				"navigationBarBackgroundColor": "#FF5500",
+				"navigationBarTitleText": "意见反馈"
+			}
+		},
+		{
+			"path": "pages/set/info",
+			"style": {
+				"navigationBarBackgroundColor": "#FF5500",
+				"navigationBarTitleText": "个人资料"
+			}
+		},
+		{
+			"path": "pages/set/check_pwd",
+			"style": {
+				"navigationBarBackgroundColor": "#FF5500",
+				"navigationBarTitleText": "修改登录密码"
+			}
+		},
+		{
+			"path": "pages/set/safe",
+			"style": {
+				"navigationBarBackgroundColor": "#FF5500",
+				"navigationBarTitleText": "安全中心"
+			}
+		},
+		{
+			"path": "pages/set/check_phone",
+			"style": {
+				"navigationBarBackgroundColor": "#FF5500",
+				"navigationBarTitleText": "修改手机号"
+			}
+		},
+		{
+			"path": "pages/set/check_paypwd",
+			"style": {
+				"navigationBarBackgroundColor": "#FF5500",
+				"navigationBarTitleText": "修改支付密码"
+			}
+		},
+		{
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarBackgroundColor": "#fff",
+				"navigationBarTextStyle": "black",
+				"navigationBarTitleText": "登录"
+			}
+		},
+		{
+			"path": "pages/login/bindTel",
+			"style": {
+				"navigationBarBackgroundColor": "#fff",
+				"navigationBarTextStyle": "black",
+				"navigationBarTitleText": "绑定手机号"
+			}
+		},
+		{
+			"path": "pages/login/protocol",
+			"style": {
+				"navigationBarBackgroundColor": "#fff",
+				"navigationBarTextStyle": "black",
+				"navigationBarTitleText": "用户协议"
+			}
+		}
+	],
+
+	"tabBar": {
+		"color": "#333333",
+		"selectedColor": "#F96709",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+
+		"list": [{
+			"pagePath": "pages/index/index",
+			"iconPath": "static/imgs/footer/icon_home.png",
+			"selectedIconPath": "static/imgs/footer/icon_home_select.png",
+			"text": "首页"
+		}, {
+			"pagePath": "pages/goods/goods",
+			"iconPath": "static/imgs/footer/icon_fenlei.png",
+			"selectedIconPath": "static/imgs/footer/icon_fenlei_select.png",
+			"text": "商品分类"
+		}, {
+			"pagePath": "pages/cart/cart",
+			"iconPath": "static/imgs/footer/icon_car.png",
+			"selectedIconPath": "static/imgs/footer/icon_car_select.png",
+			"text": "购物车"
+		}, {
+			"pagePath": "pages/own/own",
+			"iconPath": "static/imgs/footer/icon_own.png",
+			"selectedIconPath": "static/imgs/footer/icon_own_select.png",
+			"text": "我的"
+		}]
+	}
+}
